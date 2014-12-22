@@ -1,14 +1,13 @@
 var mongoose = require('mongoose'),
-    express  = require('express');
+    express  = require('express'),
+    routes   = require('./routes');
 
 mongoose.connect('mongodb://192.168.33.30', function(err) {
     if (err) throw err;
     console.log("connnected!");
 
     var app = express();
-    app.get('/', function(req,res) {
-      res.send(200, 'hello mongoose blog');
-    });
+    routes(app);
 
     app.listen(3000, function() {
       console.log('now listening on http://192.168.33.60:3000');
