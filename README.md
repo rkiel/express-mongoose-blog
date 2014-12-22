@@ -4,6 +4,8 @@
 
 [Jade](http://jade-lang.com/reference/)
 
+    nodejs app.js
+
 Mongoose
 - ODM for MongoDB
 - data validation

@@ -15,5 +15,8 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/rkiel/express-mongoose-blog/issues"
+  },
+  "dependencies": {
+    "mongoose": "~3.8.21"
   }
 }
