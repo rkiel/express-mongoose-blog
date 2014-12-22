@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "private": true,
+  "version": "0.0.0",
+  "description": "[Mongoose](http://mongoosejs.com/docs/guide.html)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rkiel/express-mongoose-blog.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/rkiel/express-mongoose-blog/issues"
+  }
+}
