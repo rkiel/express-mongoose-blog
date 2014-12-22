@@ -17,6 +17,7 @@
     "url": "https://github.com/rkiel/express-mongoose-blog/issues"
   },
   "dependencies": {
-    "mongoose": "~3.8.21"
+    "mongoose": "~3.8.21",
+    "express": "~4.10.6"
   }
 }
