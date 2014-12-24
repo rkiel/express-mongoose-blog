@@ -19,6 +19,7 @@
   "dependencies": {
     "mongoose": "~3.8.21",
     "express": "~4.10.6",
-    "jade": "~1.8.2"
+    "jade": "~1.8.2",
+    "crypto": "0.0.3"
   }
 }
