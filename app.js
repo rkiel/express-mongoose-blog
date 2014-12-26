@@ -2,7 +2,9 @@ var mongoose = require('mongoose'),
     express  = require('express'),
     routes   = require('./routes');
 
-mongoose.connect('mongodb://192.168.33.30', function(err) {
+require('./models/user');
+
+mongoose.connect('mongodb://192.168.33.30/blog', function(err) {
     if (err) throw err;
     console.log("connnected!");
 

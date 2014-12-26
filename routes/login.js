@@ -35,11 +35,12 @@ module.exports = function(app) {
               return invalid();
             }
             return next(err);
+          }
 
-            req.session.isLoggedIn = true;
-            req.session.email = email;
-            console.log('created user: %s', email);
-            return res.redirect('/');
+          req.session.isLoggedIn = true;
+          req.session.email = email;
+          console.log('created user: %s', email);
+          return res.redirect('/');
         });
       });
     });
